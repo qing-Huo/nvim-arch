@@ -1,10 +1,12 @@
 ## 文件结构
+``` shell
 	├── init.lua
 	└── lua
     ├── config.lua
     ├── basic.lua
     ├── colorscheme.lua
     ├── keybindings.lua
+    ├── plugins.lua
     ├── lsp
     │   ├── config
     │   │   ├── css.lua
@@ -29,7 +31,12 @@
     │   ├── telescope.lua
     │   ├── autopairs.lua
     │   ├── translate-shell.lua
-    ├── plugins.lua
+  ├── plugin		#这个是安装 packer.nvim 插件管理器后自动创建的文件夹
+    ├── packer_compiled.lua
+
+```
+
+	- lua 是个目录,lua和plugins.lua同级，在本地正常，不知道怎么上传后就错了
 
 ## arch上nvim的配置文件放在～/.config/nvim/ 下
 
